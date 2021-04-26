@@ -18,21 +18,15 @@ const Header = () => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-                {data.headerTagline[0]
-                  ? data.headerTagline[0]
-                  : "Building digital"}
+                {data.headerTagline[0]}
               </h1>
               <h1>
                 {" "}
-                {data.headerTagline[1]
-                  ? data.headerTagline[1]
-                  : "products, brands"}
+                {data.headerTagline[1]}
               </h1>
               <h1>
                 {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
+                {data.headerTagline[2]}
               </h1>
             </div>
           </Fade>
